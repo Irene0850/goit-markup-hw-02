@@ -29,6 +29,9 @@ font-weight: 700;
             letter-spacing: 0.02em;
             color: #2e2f42;
     }
+    .menu {
+        font-style: normal;
+    }
     .link-menu {
         font-family: "Roboto", sans-serif;
             font-style: normal;
@@ -40,7 +43,6 @@ font-weight: 700;
     }
 .link-menu:hover, .link-menu:focus {
     color: #404bbf;
-    font-style: normal;
     }
 
 .name {
@@ -107,6 +109,9 @@ font-weight: 700;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2e2f42;
+}
+.object {
+    background-color: #ffffff;
 }
 .name-developer {
     font-family: "Roboto", sans-serif;
