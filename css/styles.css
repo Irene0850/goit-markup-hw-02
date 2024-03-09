@@ -7,19 +7,19 @@
 font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
         letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
-    }
-    .title-logo:hover, .title-logo:focus {
-        color: #404bbf;
     }
     .title-text {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
             font-size: 18px;
             color: #2e2f42;
+    }
+    .title-text:hover, .title-text:focus {
+        color: #404bbf;
     }
     .menu-title {
         font-family: "Roboto", sans-serif;
@@ -29,7 +29,7 @@ font-weight: 700;
             letter-spacing: 0.02em;
             color: #2e2f42;
     }
-    .link-address {
+    .link-menu {
         font-family: "Roboto", sans-serif;
             font-style: normal;
             font-weight: 400;
@@ -38,8 +38,9 @@ font-weight: 700;
             letter-spacing: 0.02em;
             color: #434455;
     }
-.link-address:hover, .link-address:focus {
+.link-menu:hover, .link-menu:focus {
     color: #404bbf;
+    font-style: normal;
     }
 
 .name {
@@ -66,6 +67,7 @@ font-weight: 700;
         
 }
 .title-button:hover, .title-button:focus {
+    background-color: #404bbf;
     color: #404BBF;
     cursor: pointer;
 }
@@ -100,7 +102,10 @@ font-weight: 700;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 .name-developer {
@@ -108,6 +113,7 @@ font-weight: 700;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+        letter-spacing: 0.02em;
         color: #2e2f42;
 }
 .developer {
@@ -115,16 +121,18 @@ font-weight: 700;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #434455;
 }
-.title-portfolio {
-    background-color: #fff;
-}
 .text-portfolio {
+    background-color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 .text-service {
