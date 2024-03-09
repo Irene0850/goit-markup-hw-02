@@ -1,38 +1,45 @@
-.menu {
-    background-color: #fff;
+.list { 
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #434455;
 }
 .title-logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
-    color: #2e2f42;
+        letter-spacing: 0.03em;
+    color: #4d5ae5;
     text-transform: uppercase;
+    }
+    .title-logo:hover, .title-logo:focus {
+        color: #404bbf;
     }
     .title-text {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
             font-size: 18px;
-            line-height: 1.16667;
-            color: #4d5ae5;
+            color: #2e2f42;
     }
     .menu-title {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
+            letter-spacing: 0.02em;
             color: #2e2f42;
     }
-        .link-address {
+    .link-address {
         font-family: "Roboto", sans-serif;
-            font-style: initial;
+            font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
-            color: #2e2f42;
+            letter-spacing: 0.02em;
+            color: #434455;
     }
 .link-address:hover, .link-address:focus {
-    color: blue;
+    color: #404bbf;
     }
 
 .name {
@@ -42,34 +49,40 @@ font-weight: 700;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
         color: #fff
 }
 .title-button {
     background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        
 }
-.title-button:active {
-    color: #434455;
-}
-.title-button {
-    cursor: grab;
-    
+.title-button:hover, .title-button:focus {
+    color: #404BBF;
+    cursor: pointer;
 }
 .text-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.04em;
         color: #fff;
-}
-.list {
-    background-color: #fff;
 }
 .text-style {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+        letter-spacing: 0.02em;
         color: #2e2f42;
 }
 .text-list {
@@ -77,6 +90,7 @@ font-weight: 700;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #434455;
 }
 .list-developer {
@@ -117,6 +131,8 @@ font-weight: 700;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
         color: #2e2f42;
 }
 .text-list-service {
@@ -124,6 +140,7 @@ font-weight: 700;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #434455;
 }
 .title-footer {
@@ -133,22 +150,24 @@ font-weight: 700;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        color: #f4f4fd;
+        color: #4d5ae5;
 }
 .accent-web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.16667;
-        color: #4d5ae5;
+        color: #f4f4fd;
 }
 .text-footer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #f4f4fd;
 }
