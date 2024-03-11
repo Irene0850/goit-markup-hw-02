@@ -20,6 +20,9 @@ font-weight: 700;
             font-size: 18px;
             color: #2e2f42;
     }
+.title-logo {
+    cursor: pointer;
+}
 .menu-title:hover, .menu-title:focus {
         color: #404bbf;
     }
