@@ -18,9 +18,12 @@ font-weight: 700;
             font-size: 18px;
             color: #2e2f42;
     }
-    .title-text:hover, .title-logo:hover, .title-text:focus .title-logo:focus {
+.title-logo:hover, .title-logo:focus {
         color: #404bbf;
     }
+.title-text:hover, .title-text:focus {
+    color:#404bbf;
+}
     .menu-title {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
