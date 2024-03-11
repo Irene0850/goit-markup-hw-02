@@ -4,6 +4,13 @@
     background-color: #ffffff;
     color: #434455;
 }
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
 
 .title-logo {
 font-family: "Raleway", sans-serif;
