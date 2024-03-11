@@ -23,9 +23,6 @@ font-weight: 700;
 .menu-title:hover, .menu-title:focus {
         color: #404bbf;
     }
-.title-text:hover, .title-text:focus {
-    color:#404bbf;
-}
     .menu-title {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
